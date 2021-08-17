@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PCP1302-TD-H
+D MOSFET PCH 4V DRIVE SERIES
+K
+F https://componentsearchengine.com/Datasheets/2/PCP1302-TD-H.pdf
+$ENDCMP
+#
+#End Doc Library

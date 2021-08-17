@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LQH32CN100K33L
+D LQH32CN_33 Series Inductor 10uH +/-10% 1210 (3225)
+K
+F https://psearch.en.murata.com/inductor/product/LQH32CN100K33%23.html
+$ENDCMP
+#
+#End Doc Library

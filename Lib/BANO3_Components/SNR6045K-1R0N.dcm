@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SNR6045K-1R0N
+D 3L P/N:SNR6045K SERIES inductor
+K
+F https://datasheet.lcsc.com/szlcsc/1912111437_3L-COILS-SNR6045K-1R0N_C326332.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,12 @@
+(sym_lib_table
+  (lib (name BANO3_Lib)(type Legacy)(uri C:/Projects/BANO3/Lib/BANO3_Lib.lib)(options "")(descr ""))
+  (lib (name BZT52C12TQ-7-F)(type Legacy)(uri C:/Projects/BANO3/Lib/BANO3_Components/BZT52C12TQ-7-F.lib)(options "")(descr ""))
+  (lib (name LQH32CN100K33L)(type Legacy)(uri C:/Projects/BANO3/Lib/BANO3_Components/LQH32CN100K33L.lib)(options "")(descr ""))
+  (lib (name LQM21FN100M80L)(type Legacy)(uri C:/Projects/BANO3/Lib/BANO3_Components/LQM21FN100M80L.lib)(options "")(descr ""))
+  (lib (name PCP1302-TD-H)(type Legacy)(uri C:/Projects/BANO3/Lib/BANO3_Components/PCP1302-TD-H.lib)(options "")(descr ""))
+  (lib (name SNR6045K-1R0N)(type Legacy)(uri C:/Projects/BANO3/Lib/BANO3_Components/SNR6045K-1R0N.lib)(options "")(descr ""))
+  (lib (name TK34E10N1)(type Legacy)(uri C:/Projects/BANO3/Lib/BANO3_Components/TK34E10N1.lib)(options "")(descr ""))
+  (lib (name SSM3J351R_LF)(type Legacy)(uri C:/Projects/BANO3/Lib/BANO3_Components/SSM3J351R_LF.lib)(options "")(descr ""))
+  (lib (name ZXTR2105FQ-7)(type Legacy)(uri C:/Projects/BANO3/Lib/BANO3_Components/ZXTR2105FQ-7.lib)(options "")(descr ""))
+  (lib (name BANOv03)(type Legacy)(uri C:/Projects/BANO3/Lib/BANO3_Components/BANOv03.lib)(options "")(descr ""))
+)

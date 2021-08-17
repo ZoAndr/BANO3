@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ZXTR2105FQ-7
+D Linear Voltage Regulators Transistor Array
+K
+F https://www.diodes.com/assets/Datasheets/ZXTR2105F.pdf
+$ENDCMP
+#
+#End Doc Library

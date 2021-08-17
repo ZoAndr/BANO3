@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LQM21FN100M80L
+D Murata LQM21F Series 10 uH +/-20% Ferrite Multilayer SMD Inductor, 0805 (2012M) Case, SRF: 15MHz 100mA dc 390m Rdc
+K
+F https://psearch.en.murata.com/inductor/product/LQM21FN100M80%23.html
+$ENDCMP
+#
+#End Doc Library

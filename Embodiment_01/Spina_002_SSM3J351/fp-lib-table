@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name BANO3_Patterns)(type KiCad)(uri C:/Projects/BANO3/Lib/BANO3_Patterns)(options "")(descr ""))
+  (lib (name ATTINY25-20SH)(type Legacy)(uri C:/Projects/Prj_019_BANO3/BANO3/Embodiment_01/Temp/BANO3/Lib/BANO3_Components/ATTINY25-20SH.mod)(options "")(descr ""))
+  (lib (name Lib)(type KiCad)(uri C:/Projects/Prj_019_BANO3/BANO3/Embodiment_01/Temp/BANO3/Lib)(options "")(descr ""))
+  (lib (name pins)(type KiCad)(uri C:/Projects/Prj_019_BANO3/BANO3/Lib/BANO3_Patterns/pins)(options "")(descr ""))
+)

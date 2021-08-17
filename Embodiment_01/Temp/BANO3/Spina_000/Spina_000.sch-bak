@@ -1,0 +1,158 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:L L?
+U 1 1 610AB25C
+P 2650 1950
+F 0 "L?" V 2840 1950 50  0000 C CNN
+F 1 "L" V 2749 1950 50  0000 C CNN
+F 2 "" H 2650 1950 50  0001 C CNN
+F 3 "~" H 2650 1950 50  0001 C CNN
+	1    2650 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:L L?
+U 1 1 610AB9FC
+P 6400 3700
+F 0 "L?" V 6590 3700 50  0000 C CNN
+F 1 "L" V 6499 3700 50  0000 C CNN
+F 2 "" H 6400 3700 50  0001 C CNN
+F 3 "~" H 6400 3700 50  0001 C CNN
+	1    6400 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L BANO3_Lib:CMF3225 Tr?
+U 1 1 610B6BAB
+P 3900 2650
+F 0 "Tr?" H 3900 2725 50  0000 C CNN
+F 1 "CMF3225" H 3900 2634 50  0000 C CNN
+F 2 "" H 3900 2650 50  0001 C CNN
+F 3 "" H 3900 2650 50  0001 C CNN
+	1    3900 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L BANO3_Lib:CMF3225 Tr?
+U 1 1 610B77E7
+P 5250 2650
+F 0 "Tr?" H 5250 2725 50  0000 C CNN
+F 1 "CMF3225" H 5250 2634 50  0000 C CNN
+F 2 "" H 5250 2650 50  0001 C CNN
+F 3 "" H 5250 2650 50  0001 C CNN
+	1    5250 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L BANO3_Lib:CMF3225 Tr?
+U 1 1 610B81EE
+P 3900 4050
+F 0 "Tr?" H 3900 4125 50  0000 C CNN
+F 1 "CMF3225" H 3900 4034 50  0000 C CNN
+F 2 "" H 3900 4050 50  0001 C CNN
+F 3 "" H 3900 4050 50  0001 C CNN
+	1    3900 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L BANO3_Lib:CMF3225 Tr?
+U 1 1 610B8A94
+P 5250 4050
+F 0 "Tr?" H 5250 4125 50  0000 C CNN
+F 1 "CMF3225" H 5250 4034 50  0000 C CNN
+F 2 "" H 5250 4050 50  0001 C CNN
+F 3 "" H 5250 4050 50  0001 C CNN
+	1    5250 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L SNR6045K-1R0N:SNR6045K-1R0N L?
+U 1 1 610B9ACF
+P 4100 1500
+F 0 "L?" H 4500 1725 50  0000 C CNN
+F 1 "SNR6045K-1R0N" H 4500 1634 50  0000 C CNN
+F 2 "SNR6045K1R0N" H 4750 1550 50  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1912111437_3L-COILS-SNR6045K-1R0N_C326332.pdf" H 4750 1450 50  0001 L CNN
+F 4 "3L P/N:SNR6045K SERIES inductor" H 4750 1350 50  0001 L CNN "Description"
+F 5 "4.5" H 4750 1250 50  0001 L CNN "Height"
+F 6 "3L COILS" H 4750 1150 50  0001 L CNN "Manufacturer_Name"
+F 7 "SNR6045K-1R0N" H 4750 1050 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "" H 4750 950 50  0001 L CNN "Mouser Part Number"
+F 9 "" H 4750 850 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 4750 750 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 4750 650 50  0001 L CNN "Arrow Price/Stock"
+	1    4100 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L SNR6045K-1R0N:SNR6045K-1R0N L?
+U 1 1 610BA7FE
+P 5400 1750
+F 0 "L?" H 5800 1975 50  0000 C CNN
+F 1 "SNR6045K-1R0N" H 5800 1884 50  0000 C CNN
+F 2 "SNR6045K1R0N" H 6050 1800 50  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1912111437_3L-COILS-SNR6045K-1R0N_C326332.pdf" H 6050 1700 50  0001 L CNN
+F 4 "3L P/N:SNR6045K SERIES inductor" H 6050 1600 50  0001 L CNN "Description"
+F 5 "4.5" H 6050 1500 50  0001 L CNN "Height"
+F 6 "3L COILS" H 6050 1400 50  0001 L CNN "Manufacturer_Name"
+F 7 "SNR6045K-1R0N" H 6050 1300 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "" H 6050 1200 50  0001 L CNN "Mouser Part Number"
+F 9 "" H 6050 1100 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 6050 1000 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 6050 900 50  0001 L CNN "Arrow Price/Stock"
+	1    5400 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L SSM3J351R_LF:SSM3J351R,LF Q?
+U 1 1 610BE994
+P 2000 4000
+F 0 "Q?" H 2430 4146 50  0000 L CNN
+F 1 "SSM3J351R,LF" H 2430 4055 50  0000 L CNN
+F 2 "SOTFL95P240X88-3N" H 2450 3950 50  0001 L CNN
+F 3 "http://toshiba.semicon-storage.com/info/docget.jsp?did=53735&prodName=SSM3J351R" H 2450 3850 50  0001 L CNN
+F 4 "MOSFET Small-signal MOSFET ID -3.5A, -60V VDSS" H 2450 3750 50  0001 L CNN "Description"
+F 5 "0.88" H 2450 3650 50  0001 L CNN "Height"
+F 6 "Toshiba" H 2450 3550 50  0001 L CNN "Manufacturer_Name"
+F 7 "SSM3J351R,LF" H 2450 3450 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "757-SSM3J351RLF" H 2450 3350 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Toshiba/SSM3J351RLF?qs=5aG0NVq1C4zK0wh2%252B5arSw%3D%3D" H 2450 3250 50  0001 L CNN "Mouser Price/Stock"
+F 10 "SSM3J351R,LF" H 2450 3150 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/ssm3j351rlf/toshiba" H 2450 3050 50  0001 L CNN "Arrow Price/Stock"
+	1    2000 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L SSM3J351R_LF:SSM3J351R,LF Q?
+U 1 1 610BF9E5
+P 2000 5250
+F 0 "Q?" H 2430 5396 50  0000 L CNN
+F 1 "SSM3J351R,LF" H 2430 5305 50  0000 L CNN
+F 2 "SOTFL95P240X88-3N" H 2450 5200 50  0001 L CNN
+F 3 "http://toshiba.semicon-storage.com/info/docget.jsp?did=53735&prodName=SSM3J351R" H 2450 5100 50  0001 L CNN
+F 4 "MOSFET Small-signal MOSFET ID -3.5A, -60V VDSS" H 2450 5000 50  0001 L CNN "Description"
+F 5 "0.88" H 2450 4900 50  0001 L CNN "Height"
+F 6 "Toshiba" H 2450 4800 50  0001 L CNN "Manufacturer_Name"
+F 7 "SSM3J351R,LF" H 2450 4700 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "757-SSM3J351RLF" H 2450 4600 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Toshiba/SSM3J351RLF?qs=5aG0NVq1C4zK0wh2%252B5arSw%3D%3D" H 2450 4500 50  0001 L CNN "Mouser Price/Stock"
+F 10 "SSM3J351R,LF" H 2450 4400 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/ssm3j351rlf/toshiba" H 2450 4300 50  0001 L CNN "Arrow Price/Stock"
+	1    2000 5250
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

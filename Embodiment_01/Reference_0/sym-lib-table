@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name BANOv03)(type Legacy)(uri C:/Projects/Prj_019_BANO3/Previous/BANOv03.lib)(options "")(descr ""))
+  (lib (name LM60440DRPKR)(type Legacy)(uri C:/Projects/Prj_019_BANO3/Library/From_Internet/ul_LM60440DRPKR/KiCAD/LM60440DRPKR/LM60440DRPKR.lib)(options "")(descr ""))
+  (lib (name LM62435BPPQRJRRQ1)(type Legacy)(uri C:/Projects/Prj_019_BANO3/Library/From_Internet/ul_LM62435BPPQRJRRQ1/KiCAD/LM62435BPPQRJRRQ1/LM62435BPPQRJRRQ1.lib)(options "")(descr ""))
+)

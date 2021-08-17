@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SSM3J351R,LF
+D MOSFET Small-signal MOSFET ID -3.5A, -60V VDSS
+K
+F http://toshiba.semicon-storage.com/info/docget.jsp?did=53735&prodName=SSM3J351R
+$ENDCMP
+#
+#End Doc Library

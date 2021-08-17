@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name BANO3_Patterns)(type KiCad)(uri C:/Projects/BANO3/Lib/BANO3_Patterns)(options "")(descr ""))
+)

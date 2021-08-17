@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BZT52C12TQ-7-F
+D Diode Zener Single 12V 5% 300mW 2-Pin SOD-523
+K
+F https://www.diodes.com/assets/Datasheets/ds30502.pdf
+$ENDCMP
+#
+#End Doc Library

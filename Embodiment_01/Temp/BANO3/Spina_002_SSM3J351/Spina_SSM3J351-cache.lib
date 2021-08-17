@@ -1,0 +1,307 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# ATTINY25-20SH_ATTINY25-20SH
+#
+DEF ATTINY25-20SH_ATTINY25-20SH IC 0 30 Y Y 1 F N
+F0 "IC" 4550 300 50 H V L CNN
+F1 "ATTINY25-20SH_ATTINY25-20SH" 4550 200 50 H V L CNN
+F2 "SOIC127P798X216-8N" 4550 100 50 H I L CNN
+F3 "http://www.atmel.com/Images/Atmel-2586-AVR-8-bit-Microcontroller-ATtiny25-ATtiny45-ATtiny85_Datasheet.pdf" 4550 0 50 H I L CNN
+F4 "Atmel ATTINY25-20SH, 8bit AVR Microcontroller, 20MHz, 2 kB Flash, 8-Pin SOIC" 4550 -100 50 H I L CNN "Description"
+F5 "2.16" 4550 -200 50 H I L CNN "Height"
+F6 "Microchip" 4550 -300 50 H I L CNN "Manufacturer_Name"
+F7 "ATTINY25-20SH" 4550 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "556-ATTINY25-20SH" 4550 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=556-ATTINY25-20SH" 4550 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "ATTINY25-20SH" 4550 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/attiny25-20sh/microchip-technology" 4550 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+P 5 0 1 6 200 100 4500 100 4500 -400 200 -400 200 100 N
+X PB5_(PCINT5/~RESET~/ADC0/DW) 1 0 0 200 R 50 50 0 0 B
+X PB3_(PCINT3/XTAL1/CLKI/~OC1B~/ADC3) 2 0 -100 200 R 50 50 0 0 B
+X PB4_(PCINT4/XTAL2/CLKO/OC1B/ADC2) 3 0 -200 200 R 50 50 0 0 B
+X GND 4 0 -300 200 R 50 50 0 0 W
+X PB0_(MOSI/DI/SDA/AIN0/OC0A/~OC1A~/AREF/PCINT0) 5 4700 -300 200 L 50 50 0 0 B
+X PB1_(MISO/DO/AIN1/OC0B/OC1A/PCINT1) 6 4700 -200 200 L 50 50 0 0 B
+X PB2_(SCK/USCK/SCL/ADC1/T0/INT0/PCINT2) 7 4700 -100 200 L 50 50 0 0 B
+X VCC 8 4700 0 200 L 50 50 0 0 W
+ENDDRAW
+ENDDEF
+#
+# Connector_Generic_Conn_01x01
+#
+DEF Connector_Generic_Conn_01x01 J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Connector_Generic_Conn_01x01" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -50 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_C
+#
+DEF Device_C C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "Device_C" 25 -100 50 H V L CNN
+F2 "" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_L
+#
+DEF Device_L L 0 40 N N 1 F N
+F0 "L" -50 0 50 V V C CNN
+F1 "Device_L" 75 0 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Choke_*
+ *Coil*
+ Inductor_*
+ L_*
+$ENDFPLIST
+DRAW
+A 0 -75 25 -899 899 0 1 0 N 0 -100 0 -50
+A 0 -25 25 -899 899 0 1 0 N 0 -50 0 0
+A 0 25 25 -899 899 0 1 0 N 0 0 0 50
+A 0 75 25 -899 899 0 1 0 N 0 50 0 100
+X 1 1 0 150 50 D 50 50 1 1 P
+X 2 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_R
+#
+DEF Device_R R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "Device_R" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Spina_SSM3J351-rescue_BZT52C12TQ-7-F-BZT52C12TQ-7-F
+#
+DEF Spina_SSM3J351-rescue_BZT52C12TQ-7-F-BZT52C12TQ-7-F Z 0 30 Y Y 1 F N
+F0 "Z" 400 350 50 H V L CNN
+F1 "Spina_SSM3J351-rescue_BZT52C12TQ-7-F-BZT52C12TQ-7-F" 400 250 50 H V L CNN
+F2 "SODFL1608X65N" 400 150 50 H I L CNN
+F3 "https://www.diodes.com/assets/Datasheets/ds30502.pdf" 400 50 50 H I L CNN
+F4 "Diode Zener Single 12V 5% 300mW 2-Pin SOD-523" 400 -50 50 H I L CNN "Description"
+F5 "0.65" 400 -150 50 H I L CNN "Height"
+F6 "Diodes Inc." 400 -250 50 H I L CNN "Manufacturer_Name"
+F7 "BZT52C12TQ-7-F" 400 -350 50 H I L CNN "Manufacturer_Part_Number"
+F8 "621-BZT52C12TQ-7-F" 400 -450 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/BZT52C12TQ-7-F?qs=W0yvOO0ixfHNmW9JdWu87w%3D%3D" 400 -550 50 H I L CNN "Mouser Price/Stock"
+F10 "BZT52C12TQ-7-F" 400 -650 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/bzt52c12tq-7-f/diodes-incorporated" 400 -750 50 H I L CNN "Arrow Price/Stock"
+DRAW
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 160 -100 200 -80 N
+P 2 0 1 6 200 80 200 -80 N
+P 2 0 1 6 200 80 240 100 N
+P 2 0 1 6 500 0 400 0 N
+P 4 0 1 10 200 0 400 100 400 -100 200 0 F
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 600 0 100 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# Spina_SSM3J351-rescue_CMF3225-BANO3_Lib
+#
+DEF Spina_SSM3J351-rescue_CMF3225-BANO3_Lib Tr 0 40 Y Y 1 F N
+F0 "Tr" 0 0 50 H V C CNN
+F1 "Spina_SSM3J351-rescue_CMF3225-BANO3_Lib" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+A -150 -150 50 -1799 -1 0 1 0 N -200 -150 -100 -150
+A -150 -400 50 1 1799 1 1 0 N -100 -400 -200 -400
+A -50 -400 50 1 1799 1 1 0 N 0 -400 -100 -400
+A -50 -150 50 -1799 -1 1 1 0 N -100 -150 0 -150
+A 50 -400 50 1 1799 1 1 0 N 100 -400 0 -400
+A 50 -150 50 -1799 -1 1 1 0 N 0 -150 100 -150
+A 150 -400 50 1 1799 1 1 0 N 200 -400 100 -400
+A 150 -150 50 -1799 -1 1 1 0 N 100 -150 200 -150
+C -205 -210 7 0 1 0 N
+C -205 -335 7 1 1 0 N
+P 2 0 1 0 -190 -280 -120 -280 N
+P 2 0 1 0 -90 -280 -20 -280 N
+P 2 1 1 0 10 -280 80 -280 N
+P 2 1 1 0 20 -280 90 -280 N
+P 2 1 1 0 120 -280 190 -280 N
+P 2 1 1 0 130 -280 200 -280 N
+X A1 1 -300 -150 100 R 50 50 1 1 I
+X B1 2 -300 -400 100 R 50 50 1 1 I
+X A2 3 300 -150 100 L 50 50 1 1 I
+X B2 4 300 -400 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Spina_SSM3J351-rescue_GND1-power
+#
+DEF Spina_SSM3J351-rescue_GND1-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "Spina_SSM3J351-rescue_GND1-power" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND1 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Spina_SSM3J351-rescue_GND2-power
+#
+DEF Spina_SSM3J351-rescue_GND2-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "Spina_SSM3J351-rescue_GND2-power" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND2 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Spina_SSM3J351-rescue_GND3-power
+#
+DEF Spina_SSM3J351-rescue_GND3-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "Spina_SSM3J351-rescue_GND3-power" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND3 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Spina_SSM3J351-rescue_SNR6045K-1R0N-SNR6045K-1R0N
+#
+DEF Spina_SSM3J351-rescue_SNR6045K-1R0N-SNR6045K-1R0N L 0 30 Y Y 1 F N
+F0 "L" 650 250 50 H V L CNN
+F1 "Spina_SSM3J351-rescue_SNR6045K-1R0N-SNR6045K-1R0N" 650 150 50 H V L CNN
+F2 "SNR6045K1R0N" 650 50 50 H I L CNN
+F3 "https://datasheet.lcsc.com/szlcsc/1912111437_3L-COILS-SNR6045K-1R0N_C326332.pdf" 650 -50 50 H I L CNN
+F4 "3L P/N:SNR6045K SERIES inductor" 650 -150 50 H I L CNN "Description"
+F5 "4.5" 650 -250 50 H I L CNN "Height"
+F6 "3L COILS" 650 -350 50 H I L CNN "Manufacturer_Name"
+F7 "SNR6045K-1R0N" 650 -450 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+A 250 -2 50 1777 -23 0 1 6 N 300 0 200 0
+A 350 -2 50 1777 -23 0 1 6 N 400 0 300 0
+A 450 -2 50 1777 -23 0 1 6 N 500 0 400 0
+A 550 -2 50 1777 -23 0 1 6 N 600 0 500 0
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 800 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# Spina_SSM3J351-rescue_SSM3J351R,LF-SSM3J351R_LF
+#
+DEF Spina_SSM3J351-rescue_SSM3J351R,LF-SSM3J351R_LF Q 0 30 Y Y 1 F N
+F0 "Q" 450 150 50 H V L CNN
+F1 "Spina_SSM3J351-rescue_SSM3J351R,LF-SSM3J351R_LF" 450 50 50 H V L CNN
+F2 "SOTFL95P240X88-3N" 450 -50 50 H I L CNN
+F3 "http://toshiba.semicon-storage.com/info/docget.jsp?did=53735&prodName=SSM3J351R" 450 -150 50 H I L CNN
+F4 "MOSFET Small-signal MOSFET ID -3.5A, -60V VDSS" 450 -250 50 H I L CNN "Description"
+F5 "0.88" 450 -350 50 H I L CNN "Height"
+F6 "Toshiba" 450 -450 50 H I L CNN "Manufacturer_Name"
+F7 "SSM3J351R,LF" 450 -550 50 H I L CNN "Manufacturer_Part_Number"
+F8 "757-SSM3J351RLF" 450 -650 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Toshiba/SSM3J351RLF?qs=5aG0NVq1C4zK0wh2%252B5arSw%3D%3D" 450 -750 50 H I L CNN "Mouser Price/Stock"
+F10 "SSM3J351R,LF" 450 -850 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/ssm3j351rlf/toshiba" 450 -950 50 H I L CNN "Arrow Price/Stock"
+DRAW
+C 250 100 150 0 1 10 N
+P 2 0 1 6 230 -20 230 20 N
+P 2 0 1 6 230 0 300 0 N
+P 2 0 1 6 230 80 230 120 N
+P 2 0 1 6 230 220 230 180 N
+P 2 0 1 6 300 100 230 100 N
+P 2 0 1 6 300 100 300 -100 N
+P 2 0 1 6 300 200 230 200 N
+P 2 0 1 6 300 200 300 300 N
+P 3 0 1 6 100 0 200 0 200 200 N
+P 4 0 1 10 300 100 260 120 260 80 300 100 F
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 300 -200 100 U 50 50 0 0 P
+X ~ 3 300 400 100 D 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# Spina_SSM3J351-rescue_ZXTR2105FQ-7-ZXTR2105FQ-7
+#
+DEF Spina_SSM3J351-rescue_ZXTR2105FQ-7-ZXTR2105FQ-7 IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "Spina_SSM3J351-rescue_ZXTR2105FQ-7-ZXTR2105FQ-7" 950 200 50 H V L CNN
+F2 "SOT96P240X110-3N" 950 100 50 H I L CNN
+F3 "https://www.diodes.com/assets/Datasheets/ZXTR2105F.pdf" 950 0 50 H I L CNN
+F4 "Linear Voltage Regulators Transistor Array" 950 -100 50 H I L CNN "Description"
+F5 "1.1" 950 -200 50 H I L CNN "Height"
+F6 "Diodes Inc." 950 -300 50 H I L CNN "Manufacturer_Name"
+F7 "ZXTR2105FQ-7" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "621-ZXTR2105FQ-7" 950 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/ZXTR2105FQ-7?qs=4EhzHfbM1GhWfAX%2FiWltGQ%3D%3D" 950 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "ZXTR2105FQ-7" 950 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/zxtr2105fq-7/diodes-incorporated" 950 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+P 5 0 1 6 200 100 900 100 900 -200 200 -200 200 100 N
+X GND 1 0 0 200 R 50 50 0 0 P
+X VOUT 2 0 -100 200 R 50 50 0 0 P
+X VIN 3 1100 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_GNDA
+#
+DEF power_GNDA #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GNDA" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GNDA 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+#End Library

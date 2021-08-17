@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ATTINY25-20SH
+D Atmel ATTINY25-20SH, 8bit AVR Microcontroller, 20MHz, 2 kB Flash, 8-Pin SOIC
+K
+F http://www.atmel.com/Images/Atmel-2586-AVR-8-bit-Microcontroller-ATtiny25-ATtiny45-ATtiny85_Datasheet.pdf
+$ENDCMP
+#
+#End Doc Library
