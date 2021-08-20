@@ -45,11 +45,12 @@ E1 = E_DOTS(1, :); E2 = E_DOTS(2, :); E3 = E_DOTS(3, :); E4 = E_DOTS(4, :); E5 =
 N_E = 6;
 
 if FIG_ON == 1
-figure(FIG_N)
-for c = 1: N_E - 1
-    line([E_DOTS(c, 1) E_DOTS(c + 1, 1)], [E_DOTS(c, 2) E_DOTS(c + 1, 2)]);
-end
-line([E_DOTS(N_E, 1) E_DOTS(1, 1)], [E_DOTS(N_E, 2) E_DOTS(1, 2)]);
+    figure(FIG_N)
+    for c = 1: N_E - 1
+        line([E_DOTS(c, 1) E_DOTS(c + 1, 1)], [E_DOTS(c, 2) E_DOTS(c + 1, 2)]);
+    end
+    line([E_DOTS(N_E, 1) E_DOTS(1, 1)], [E_DOTS(N_E, 2) E_DOTS(1, 2)]);
 
-text( (E_DOTS(1, 1) + E_DOTS(4, 1))/2, (E_DOTS(1, 2) + E_DOTS(4, 2))/2, 'E');
+    text( (E_DOTS(1, 1) + E_DOTS(4, 1))/2, (E_DOTS(1, 2) + E_DOTS(4, 2))/2, 'E');
+
 end

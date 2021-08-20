@@ -100,6 +100,15 @@ if Type == Popona
     Crcle_to_SVG_file(fid, Crc_TR_2, Crc_R);
 end
 
+
+for c = 1: N_LED
+    Crcle_to_SVG_file(fid, Arr_LED(c, :), 1.75);
+end
+
+for c = 1: N_FxHls
+    Crcle_to_SVG_file(fid, FxHls(c, :), 0.6);
+end
+
 fprintf(fid, ['  </g>'  '\n']);
 fprintf(fid, ['</svg>'  '\n']);
 
