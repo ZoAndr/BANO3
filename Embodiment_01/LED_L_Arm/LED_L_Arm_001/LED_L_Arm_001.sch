@@ -249,4 +249,194 @@ Wire Wire Line
 Connection ~ 2900 2400
 Wire Wire Line
 	2900 2400 2500 2400
+$Comp
+L Connector:Conn_01x01_Female J3
+U 1 1 6121E8A1
+P 2350 3200
+F 0 "J3" H 2242 2975 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 2242 3066 50  0000 C CNN
+F 2 "pins:WireSidePlate_001" H 2350 3200 50  0001 C CNN
+F 3 "~" H 2350 3200 50  0001 C CNN
+	1    2350 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J4
+U 1 1 6121F038
+P 2350 3500
+F 0 "J4" H 2242 3275 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 2242 3366 50  0000 C CNN
+F 2 "pins:WireSidePlate_001" H 2350 3500 50  0001 C CNN
+F 3 "~" H 2350 3500 50  0001 C CNN
+	1    2350 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J5
+U 1 1 6121F999
+P 3450 3250
+F 0 "J5" H 3342 3025 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 3342 3116 50  0000 C CNN
+F 2 "pins:WireSidePlate_001" H 3450 3250 50  0001 C CNN
+F 3 "~" H 3450 3250 50  0001 C CNN
+	1    3450 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J6
+U 1 1 6122010A
+P 3450 3450
+F 0 "J6" H 3342 3225 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 3342 3316 50  0000 C CNN
+F 2 "pins:WireSidePlate_001" H 3450 3450 50  0001 C CNN
+F 3 "~" H 3450 3450 50  0001 C CNN
+	1    3450 3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J7
+U 1 1 61220A38
+P 3450 3700
+F 0 "J7" H 3342 3475 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 3342 3566 50  0000 C CNN
+F 2 "pins:pin_1.5" H 3450 3700 50  0001 C CNN
+F 3 "~" H 3450 3700 50  0001 C CNN
+	1    3450 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J8
+U 1 1 6122126C
+P 3450 3900
+F 0 "J8" H 3342 3675 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 3342 3766 50  0000 C CNN
+F 2 "pins:pin_1.5" H 3450 3900 50  0001 C CNN
+F 3 "~" H 3450 3900 50  0001 C CNN
+	1    3450 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J9
+U 1 1 61225C0A
+P 4350 3200
+F 0 "J9" H 4242 2975 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 4242 3066 50  0000 C CNN
+F 2 "pins:pin_1.0" H 4350 3200 50  0001 C CNN
+F 3 "~" H 4350 3200 50  0001 C CNN
+	1    4350 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J10
+U 1 1 61225C10
+P 4350 3400
+F 0 "J10" H 4242 3175 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 4242 3266 50  0000 C CNN
+F 2 "pins:pin_1.0" H 4350 3400 50  0001 C CNN
+F 3 "~" H 4350 3400 50  0001 C CNN
+	1    4350 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J11
+U 1 1 61225C16
+P 4350 3850
+F 0 "J11" H 4242 3625 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 4242 3716 50  0000 C CNN
+F 2 "pins:pin_1.0" H 4350 3850 50  0001 C CNN
+F 3 "~" H 4350 3850 50  0001 C CNN
+	1    4350 3850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J12
+U 1 1 61225C1C
+P 4350 4050
+F 0 "J12" H 4242 3825 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 4242 3916 50  0000 C CNN
+F 2 "pins:pin_1.0" H 4350 4050 50  0001 C CNN
+F 3 "~" H 4350 4050 50  0001 C CNN
+	1    4350 4050
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 61229AE3
+P 2650 3650
+F 0 "#PWR0101" H 2650 3400 50  0001 C CNN
+F 1 "GND" H 2655 3477 50  0000 C CNN
+F 2 "" H 2650 3650 50  0001 C CNN
+F 3 "" H 2650 3650 50  0001 C CNN
+	1    2650 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 6122A48C
+P 3750 4050
+F 0 "#PWR0102" H 3750 3800 50  0001 C CNN
+F 1 "GND" H 3755 3877 50  0000 C CNN
+F 2 "" H 3750 4050 50  0001 C CNN
+F 3 "" H 3750 4050 50  0001 C CNN
+	1    3750 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 6122A906
+P 4650 4150
+F 0 "#PWR0103" H 4650 3900 50  0001 C CNN
+F 1 "GND" H 4655 3977 50  0000 C CNN
+F 2 "" H 4650 4150 50  0001 C CNN
+F 3 "" H 4650 4150 50  0001 C CNN
+	1    4650 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 3200 2650 3200
+Wire Wire Line
+	2650 3200 2650 3500
+Wire Wire Line
+	2550 3500 2650 3500
+Connection ~ 2650 3500
+Wire Wire Line
+	2650 3500 2650 3650
+Wire Wire Line
+	3650 3250 3750 3250
+Wire Wire Line
+	3750 3250 3750 3450
+Wire Wire Line
+	3650 3450 3750 3450
+Connection ~ 3750 3450
+Wire Wire Line
+	3750 3450 3750 3700
+Wire Wire Line
+	3650 3700 3750 3700
+Connection ~ 3750 3700
+Wire Wire Line
+	3750 3700 3750 3900
+Wire Wire Line
+	3650 3900 3750 3900
+Connection ~ 3750 3900
+Wire Wire Line
+	3750 3900 3750 4050
+Wire Wire Line
+	4550 3200 4650 3200
+Wire Wire Line
+	4650 3200 4650 3400
+Wire Wire Line
+	4550 4050 4650 4050
+Connection ~ 4650 4050
+Wire Wire Line
+	4650 4050 4650 4150
+Wire Wire Line
+	4550 3850 4650 3850
+Connection ~ 4650 3850
+Wire Wire Line
+	4650 3850 4650 4050
+Wire Wire Line
+	4550 3400 4650 3400
+Connection ~ 4650 3400
+Wire Wire Line
+	4650 3400 4650 3850
 $EndSCHEMATC

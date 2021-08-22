@@ -507,7 +507,7 @@
          <circle
             style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.25;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
             id="path10"
-            cx="-7.8417"
+            cx="-4.8417"
             cy="3"
             r="1.75" />
          <circle
@@ -519,7 +519,7 @@
          <circle
             style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.25;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
             id="path10"
-            cx="-7.8417"
+            cx="-4.8417"
             cy="-3"
             r="1.75" />
          <circle
@@ -567,26 +567,26 @@
          <circle
             style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.25;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
             id="path10"
-            cx="-6.0917"
+            cx="-9.0917"
             cy="6.25"
             r="0.6" />
          <circle
             style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.25;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
             id="path10"
-            cx="-6.0917"
+            cx="-9.0917"
             cy="-6.25"
             r="0.6" />
          <circle
             style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.25;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
             id="path10"
-            cx="51.8624"
-            cy="6"
+            cx="52.8624"
+            cy="5.5"
             r="0.6" />
          <circle
             style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:0.25;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
             id="path10"
-            cx="51.8624"
-            cy="-6"
+            cx="52.8624"
+            cy="-5.5"
             r="0.6" />
   </g>
 </svg>

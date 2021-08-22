@@ -52,10 +52,10 @@ LED(1, 1) = C_DOTS(1, 1) + 6;
 LED(1, 2) = 0;
 
 % Fixing holes
-FH(1, 1) =  C_DOTS(1, 1) + 7;
-FH(1, 2) =  6;
-FH(2, 1) =  C_DOTS(1, 1) + 7;
-FH(2, 2) = -6;
+FH(1, 1) =  C_DOTS(1, 1) + 8;
+FH(1, 2) =  5.5;
+FH(2, 1) =  C_DOTS(1, 1) + 8;
+FH(2, 2) = -5.5;
 
 if FIG_ON == 1
     figure(FIG_N)
