@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name pins)(type KiCad)(uri C:/Projects/Bano3_Git/Lib/BANO3_Patterns/pins)(options "")(descr ""))
+  (lib (name BANO3_Patterns)(type KiCad)(uri C:/Projects/Bano3_Git/Lib/BANO3_Patterns)(options "")(descr ""))
+)

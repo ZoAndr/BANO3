@@ -3,7 +3,7 @@ close all
 clc
 
 Popona = 1;
-Slon   = 2;
+Slon   = 2; 
 
 
 A = 30;
