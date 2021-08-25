@@ -285,6 +285,11 @@ Arr_LED = [];
 N_FxHls = 10;
 FxHls   = [];
 
+% Below we will calculate configurations of PCB boards. Lighting equipment of BANO3 consists from 5 elements.
+% We call there "Head" "Element E", "Left wing" - Element B, "Right wing" - element D, "Tail" - element C and "Center".
+% Functions below calculates coordinates of corners of PCBs, LEDs positions and Mounting holes positions. 
+% All coordinates are provided in same coordinate system with aluminium draw.
+
 ShiftX = 0; ShiftY = D / 90 * Al_Th;
 [B1, B2, B3, B4, LED_B, FH_B] = Calc_B_PCB(...
     ShiftX, ShiftY, ...
