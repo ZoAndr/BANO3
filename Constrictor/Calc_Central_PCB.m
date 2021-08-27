@@ -21,8 +21,9 @@ B_Lx = Lngth(T1_4, T2_4) / 2;
 Tan_A = tan((A - B) / rad);
 Tan_B = tan((G + B) / rad);
 
-LED = LED * cos(D / rad);
+%LED = LED * cos(D / rad);
 
+LED = 8;
 
 B_1_X = -LED * Tan_A + PCB_W * 1/(1 - Tan_A^2)^0.5;
 B_1_Y =  LED + B_Lx;

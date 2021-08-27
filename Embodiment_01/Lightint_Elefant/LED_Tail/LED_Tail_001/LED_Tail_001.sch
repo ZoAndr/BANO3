@@ -1,0 +1,120 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_01x01_Female J7
+U 1 1 61220A38
+P 4500 2050
+F 0 "J7" H 4392 1825 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 4392 1916 50  0000 C CNN
+F 2 "pins:pin_1.5" H 4500 2050 50  0001 C CNN
+F 3 "~" H 4500 2050 50  0001 C CNN
+	1    4500 2050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J8
+U 1 1 6122126C
+P 4500 2250
+F 0 "J8" H 4392 2025 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 4392 2116 50  0000 C CNN
+F 2 "pins:pin_1.5" H 4500 2250 50  0001 C CNN
+F 3 "~" H 4500 2250 50  0001 C CNN
+	1    4500 2250
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 6122A48C
+P 4800 2400
+F 0 "#PWR0102" H 4800 2150 50  0001 C CNN
+F 1 "GND" H 4805 2227 50  0000 C CNN
+F 2 "" H 4800 2400 50  0001 C CNN
+F 3 "" H 4800 2400 50  0001 C CNN
+	1    4800 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 2050 4800 2050
+Wire Wire Line
+	4800 2050 4800 2250
+Wire Wire Line
+	4700 2250 4800 2250
+Connection ~ 4800 2250
+Wire Wire Line
+	4800 2250 4800 2400
+$Comp
+L Connector:Conn_01x01_Female J1
+U 1 1 612B4E2D
+P 2200 1900
+F 0 "J1" H 2092 1675 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 2092 1766 50  0000 C CNN
+F 2 "pins:pin_0.8" H 2200 1900 50  0001 C CNN
+F 3 "~" H 2200 1900 50  0001 C CNN
+	1    2200 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J2
+U 1 1 612B4E33
+P 2250 2500
+F 0 "J2" H 2142 2275 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 2142 2366 50  0000 C CNN
+F 2 "pins:pin_0.8" H 2250 2500 50  0001 C CNN
+F 3 "~" H 2250 2500 50  0001 C CNN
+	1    2250 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 612B4E39
+P 2850 2200
+F 0 "C1" H 2965 2246 50  0000 L CNN
+F 1 "C" H 2965 2155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2888 2050 50  0001 C CNN
+F 3 "~" H 2850 2200 50  0001 C CNN
+	1    2850 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 1900 2850 1900
+Wire Wire Line
+	3650 1900 3850 1900
+Wire Wire Line
+	2850 2050 2850 1900
+Connection ~ 2850 1900
+Wire Wire Line
+	2850 2350 2850 2500
+Wire Wire Line
+	2850 2500 2450 2500
+Connection ~ 2850 2500
+Wire Wire Line
+	3850 1900 3850 2500
+$Comp
+L Device:LED D5
+U 1 1 612B5D59
+P 3500 1900
+F 0 "D5" V 3539 1782 50  0000 R CNN
+F 1 "LED" V 3448 1782 50  0000 R CNN
+F 2 "LED_SMD:LED_Cree-XHP35" H 3500 1900 50  0001 C CNN
+F 3 "~" H 3500 1900 50  0001 C CNN
+	1    3500 1900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2850 1900 3350 1900
+Wire Wire Line
+	2850 2500 3850 2500
+$EndSCHEMATC

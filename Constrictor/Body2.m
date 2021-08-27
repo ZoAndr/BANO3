@@ -332,7 +332,7 @@ ShiftX = -(90 - A) / 90 * Al_Th; ShiftY = 0;
     Al_Th, ...
     Side_GAP, BOTTOM_GAP, ...
     FIG_N, 1);
-PCB_D = [E1, E2, E3, E4, E5, E6];
+PCB_E = [E1, E2, E3, E4, E5, E6];
 Arr_LED = [Arr_LED; LED_E];
 FxHls   = [FxHls; FH_E];
 
@@ -348,7 +348,7 @@ ShiftX = (90 - G) / 90 * Al_Th; ShiftY = 0;
     Al_Th, ...
     Side_GAP, BOTTOM_GAP, ...
     FIG_N, 1);
-PCB_D = [C1, C2, C3, C4, C5, C6];
+PCB_C = [C1, C2, C3, C4, C5, C6];
 Arr_LED = [Arr_LED; LED_C];
 FxHls   = [FxHls; FH_C];
 

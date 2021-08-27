@@ -24,14 +24,14 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:snap-global="false"
-     inkscape:zoom="1.0482005"
-     inkscape:cx="201.77438"
-     inkscape:cy="421.19805"
-     inkscape:window-width="1024"
-     inkscape:window-height="705"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
+     inkscape:zoom="2.9647587"
+     inkscape:cx="325.32158"
+     inkscape:cy="341.34312"
+     inkscape:window-width="790"
+     inkscape:window-height="920"
+     inkscape:window-x="1033"
+     inkscape:window-y="66"
+     inkscape:window-maximized="0"
      inkscape:current-layer="layer1" />
   <defs
      id="defs2" />
@@ -615,6 +615,20 @@
        id="circle4281"
        cx="-103.79723"
        cy="111.23139"
+       r="0.37862509"
+       transform="scale(-1,1)" />
+    <circle
+       style="fill:#ff00ff;stroke-width:0.264583"
+       id="circle4279-5"
+       cx="-103.80726"
+       cy="106.2618"
+       r="0.37862509"
+       transform="scale(-1,1)" />
+    <circle
+       style="fill:#00ffff;stroke-width:0.264583;stroke:none"
+       id="circle4281-4"
+       cx="-103.80726"
+       cy="107.33456"
        r="0.37862509"
        transform="scale(-1,1)" />
     <rect

@@ -1,0 +1,468 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_01x01_Female J1
+U 1 1 611CC688
+P 1850 900
+F 0 "J1" H 1742 675 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 1742 766 50  0000 C CNN
+F 2 "pins:WireSidePlate_001" H 1850 900 50  0001 C CNN
+F 3 "~" H 1850 900 50  0001 C CNN
+	1    1850 900 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J2
+U 1 1 611CDD3C
+P 1850 1500
+F 0 "J2" H 1742 1275 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 1742 1366 50  0000 C CNN
+F 2 "pins:WireSidePlate_001" H 1850 1500 50  0001 C CNN
+F 3 "~" H 1850 1500 50  0001 C CNN
+	1    1850 1500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 611CE72F
+P 2500 1200
+F 0 "C1" H 2615 1246 50  0000 L CNN
+F 1 "C" H 2615 1155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2538 1050 50  0001 C CNN
+F 3 "~" H 2500 1200 50  0001 C CNN
+	1    2500 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 611CEE4D
+P 2800 1200
+F 0 "C2" H 2915 1246 50  0000 L CNN
+F 1 "C" H 2915 1155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2838 1050 50  0001 C CNN
+F 3 "~" H 2800 1200 50  0001 C CNN
+	1    2800 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 611D226B
+P 3100 1200
+F 0 "C3" H 3215 1246 50  0000 L CNN
+F 1 "C" H 3215 1155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3138 1050 50  0001 C CNN
+F 3 "~" H 3100 1200 50  0001 C CNN
+	1    3100 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 611D2271
+P 3400 1200
+F 0 "C4" H 3515 1246 50  0000 L CNN
+F 1 "C" H 3515 1155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3438 1050 50  0001 C CNN
+F 3 "~" H 3400 1200 50  0001 C CNN
+	1    3400 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 900  2500 900 
+Wire Wire Line
+	3400 900  3400 1050
+Connection ~ 2500 900 
+Wire Wire Line
+	2500 900  2800 900 
+Wire Wire Line
+	2800 1050 2800 900 
+Connection ~ 2800 900 
+Wire Wire Line
+	2800 900  3100 900 
+Wire Wire Line
+	3100 1050 3100 900 
+Connection ~ 3100 900 
+Wire Wire Line
+	3100 900  3400 900 
+Wire Wire Line
+	3400 1350 3400 1500
+Wire Wire Line
+	3400 1500 3100 1500
+Wire Wire Line
+	3100 1350 3100 1500
+Connection ~ 3100 1500
+Wire Wire Line
+	3100 1500 2800 1500
+Wire Wire Line
+	2800 1350 2800 1500
+Connection ~ 2800 1500
+$Comp
+L Connector:Conn_01x01_Female J3
+U 1 1 6121E8A1
+P 3100 1950
+F 0 "J3" H 2992 1725 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 2992 1816 50  0000 C CNN
+F 2 "pins:pin_0.8" H 3100 1950 50  0001 C CNN
+F 3 "~" H 3100 1950 50  0001 C CNN
+	1    3100 1950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J4
+U 1 1 6121F038
+P 3100 2050
+F 0 "J4" H 2992 1825 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 2992 1916 50  0000 C CNN
+F 2 "pins:pin_0.8" H 3100 2050 50  0001 C CNN
+F 3 "~" H 3100 2050 50  0001 C CNN
+	1    3100 2050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J9
+U 1 1 61225C0A
+P 6900 2750
+F 0 "J9" H 6792 2525 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 6792 2616 50  0000 C CNN
+F 2 "pins:pin_1.0" H 6900 2750 50  0001 C CNN
+F 3 "~" H 6900 2750 50  0001 C CNN
+	1    6900 2750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J10
+U 1 1 61225C10
+P 6900 2950
+F 0 "J10" H 6792 2725 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 6792 2816 50  0000 C CNN
+F 2 "pins:pin_1.0" H 6900 2950 50  0001 C CNN
+F 3 "~" H 6900 2950 50  0001 C CNN
+	1    6900 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J11
+U 1 1 61225C16
+P 6900 3400
+F 0 "J11" H 6792 3175 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 6792 3266 50  0000 C CNN
+F 2 "pins:pin_1.0" H 6900 3400 50  0001 C CNN
+F 3 "~" H 6900 3400 50  0001 C CNN
+	1    6900 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J12
+U 1 1 61225C1C
+P 6900 3600
+F 0 "J12" H 6792 3375 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 6792 3466 50  0000 C CNN
+F 2 "pins:pin_1.0" H 6900 3600 50  0001 C CNN
+F 3 "~" H 6900 3600 50  0001 C CNN
+	1    6900 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 6122A906
+P 7200 3700
+F 0 "#PWR0103" H 7200 3450 50  0001 C CNN
+F 1 "GND" H 7205 3527 50  0000 C CNN
+F 2 "" H 7200 3700 50  0001 C CNN
+F 3 "" H 7200 3700 50  0001 C CNN
+	1    7200 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 2750 7200 2750
+Wire Wire Line
+	7200 2750 7200 2950
+Wire Wire Line
+	7100 3600 7200 3600
+Connection ~ 7200 3600
+Wire Wire Line
+	7200 3600 7200 3700
+Wire Wire Line
+	7100 3400 7200 3400
+Connection ~ 7200 3400
+Wire Wire Line
+	7200 3400 7200 3600
+Wire Wire Line
+	7100 2950 7200 2950
+Connection ~ 7200 2950
+Wire Wire Line
+	7200 2950 7200 3400
+Wire Wire Line
+	2050 1500 2500 1500
+Wire Wire Line
+	2500 900  2500 1050
+Wire Wire Line
+	2500 1350 2500 1500
+Connection ~ 2500 1500
+Wire Wire Line
+	2500 1500 2800 1500
+$Comp
+L Connector:Conn_01x01_Female J14
+U 1 1 612980B0
+P 5900 1500
+F 0 "J14" H 5792 1275 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 5792 1366 50  0000 C CNN
+F 2 "pins:WireSidePlate_001" H 5900 1500 50  0001 C CNN
+F 3 "~" H 5900 1500 50  0001 C CNN
+	1    5900 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J13
+U 1 1 612980B6
+P 5900 900
+F 0 "J13" H 5792 675 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 5792 766 50  0000 C CNN
+F 2 "pins:WireSidePlate_001" H 5900 900 50  0001 C CNN
+F 3 "~" H 5900 900 50  0001 C CNN
+	1    5900 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 900  3700 900 
+Connection ~ 3400 900 
+Connection ~ 3400 1500
+Wire Wire Line
+	3300 1950 3700 1950
+Wire Wire Line
+	3700 1950 3700 900 
+Wire Wire Line
+	3300 2050 3900 2050
+$Comp
+L Connector:Conn_01x01_Female J5
+U 1 1 612B2A44
+P 1850 3050
+F 0 "J5" H 1742 2825 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 1742 2916 50  0000 C CNN
+F 2 "pins:WireSidePlate_001" H 1850 3050 50  0001 C CNN
+F 3 "~" H 1850 3050 50  0001 C CNN
+	1    1850 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J6
+U 1 1 612B2A4A
+P 1850 3650
+F 0 "J6" H 1742 3425 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 1742 3516 50  0000 C CNN
+F 2 "pins:WireSidePlate_001" H 1850 3650 50  0001 C CNN
+F 3 "~" H 1850 3650 50  0001 C CNN
+	1    1850 3650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 612B2A50
+P 2500 3350
+F 0 "C5" H 2615 3396 50  0000 L CNN
+F 1 "C" H 2615 3305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2538 3200 50  0001 C CNN
+F 3 "~" H 2500 3350 50  0001 C CNN
+	1    2500 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C6
+U 1 1 612B2A56
+P 2800 3350
+F 0 "C6" H 2915 3396 50  0000 L CNN
+F 1 "C" H 2915 3305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2838 3200 50  0001 C CNN
+F 3 "~" H 2800 3350 50  0001 C CNN
+	1    2800 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C7
+U 1 1 612B2A5C
+P 3100 3350
+F 0 "C7" H 3215 3396 50  0000 L CNN
+F 1 "C" H 3215 3305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3138 3200 50  0001 C CNN
+F 3 "~" H 3100 3350 50  0001 C CNN
+	1    3100 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C8
+U 1 1 612B2A62
+P 3400 3350
+F 0 "C8" H 3515 3396 50  0000 L CNN
+F 1 "C" H 3515 3305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3438 3200 50  0001 C CNN
+F 3 "~" H 3400 3350 50  0001 C CNN
+	1    3400 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 3050 2500 3050
+Wire Wire Line
+	3400 3050 3400 3200
+Connection ~ 2500 3050
+Wire Wire Line
+	2500 3050 2800 3050
+Wire Wire Line
+	2800 3200 2800 3050
+Connection ~ 2800 3050
+Wire Wire Line
+	2800 3050 3100 3050
+Wire Wire Line
+	3100 3200 3100 3050
+Connection ~ 3100 3050
+Wire Wire Line
+	3100 3050 3400 3050
+Wire Wire Line
+	3400 3500 3400 3650
+Wire Wire Line
+	3400 3650 3100 3650
+Wire Wire Line
+	3100 3500 3100 3650
+Connection ~ 3100 3650
+Wire Wire Line
+	3100 3650 2800 3650
+Wire Wire Line
+	2800 3500 2800 3650
+Connection ~ 2800 3650
+$Comp
+L Connector:Conn_01x01_Female J7
+U 1 1 612B2A79
+P 3100 4100
+F 0 "J7" H 2992 3875 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 2992 3966 50  0000 C CNN
+F 2 "pins:pin_0.8" H 3100 4100 50  0001 C CNN
+F 3 "~" H 3100 4100 50  0001 C CNN
+	1    3100 4100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J8
+U 1 1 612B2A7F
+P 3100 4400
+F 0 "J8" H 2992 4175 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 2992 4266 50  0000 C CNN
+F 2 "pins:pin_0.8" H 3100 4400 50  0001 C CNN
+F 3 "~" H 3100 4400 50  0001 C CNN
+	1    3100 4400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2050 3650 2500 3650
+Wire Wire Line
+	2500 3050 2500 3200
+Wire Wire Line
+	2500 3500 2500 3650
+Connection ~ 2500 3650
+Wire Wire Line
+	2500 3650 2800 3650
+Connection ~ 3400 3050
+Connection ~ 3400 3650
+Wire Wire Line
+	3300 4100 3700 4100
+Wire Wire Line
+	3300 4400 3900 4400
+Wire Wire Line
+	3900 4400 3900 3650
+Wire Wire Line
+	3400 3650 3900 3650
+Wire Wire Line
+	3400 3050 3700 3050
+Wire Wire Line
+	3700 4100 3700 3050
+$Comp
+L Connector:Conn_01x01_Female J15
+U 1 1 612E5D94
+P 3100 2300
+F 0 "J15" H 2992 2075 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 2992 2166 50  0000 C CNN
+F 2 "pins:pin_0.8" H 3100 2300 50  0001 C CNN
+F 3 "~" H 3100 2300 50  0001 C CNN
+	1    3100 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J16
+U 1 1 612E5D9A
+P 3100 2400
+F 0 "J16" H 2992 2175 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 2992 2266 50  0000 C CNN
+F 2 "pins:pin_0.8" H 3100 2400 50  0001 C CNN
+F 3 "~" H 3100 2400 50  0001 C CNN
+	1    3100 2400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3300 2300 3700 2300
+Wire Wire Line
+	3700 2300 3700 1950
+Connection ~ 3700 1950
+Wire Wire Line
+	3300 2400 3900 2400
+Wire Wire Line
+	3900 2400 3900 2050
+$Comp
+L Device:C C9
+U 1 1 61315458
+P 4650 1200
+F 0 "C9" H 4765 1246 50  0000 L CNN
+F 1 "C" H 4765 1155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4688 1050 50  0001 C CNN
+F 3 "~" H 4650 1200 50  0001 C CNN
+	1    4650 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C10
+U 1 1 6131545E
+P 4950 1200
+F 0 "C10" H 5065 1246 50  0000 L CNN
+F 1 "C" H 5065 1155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4988 1050 50  0001 C CNN
+F 3 "~" H 4950 1200 50  0001 C CNN
+	1    4950 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 1350 4650 1500
+Connection ~ 4650 1500
+Wire Wire Line
+	4650 1500 4950 1500
+Wire Wire Line
+	4950 1350 4950 1500
+Connection ~ 4950 1500
+Wire Wire Line
+	4950 1500 5700 1500
+Wire Wire Line
+	4650 900  4650 1050
+Wire Wire Line
+	4650 900  4950 900 
+Wire Wire Line
+	4950 900  4950 1050
+Connection ~ 4950 900 
+Wire Wire Line
+	4950 900  5700 900 
+Wire Wire Line
+	3400 1500 4650 1500
+Wire Wire Line
+	3900 2050 3900 900 
+Wire Wire Line
+	3900 900  4650 900 
+Connection ~ 3900 2050
+Connection ~ 4650 900 
+$EndSCHEMATC
