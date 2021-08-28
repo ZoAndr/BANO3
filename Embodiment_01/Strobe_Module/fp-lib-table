@@ -1,6 +1,6 @@
 (fp_lib_table
   (lib (name Previous)(type KiCad)(uri C:/Projects/Prj_019_BANO3/Previous)(options "")(descr ""))
   (lib (name BANO3)(type KiCad)(uri C:/Projects/Prj_019_BANO3/BANO3)(options "")(descr ""))
-  (lib (name LM62435BPPQRJRRQ1)(type KiCad)(uri C:/Projects/Prj_019_BANO3/Library/From_Internet/ul_LM62435BPPQRJRRQ1/KiCAD/LM62435BPPQRJRRQ1/LM62435BPPQRJRRQ1.pretty)(options "")(descr ""))
-  (lib (name LM60440DRPKR)(type KiCad)(uri C:/Projects/Prj_019_BANO3/Library/From_Internet/ul_LM60440DRPKR/KiCAD/LM60440DRPKR/LM60440DRPKR.pretty)(options "")(descr ""))
+  (lib (name BANO3_Components)(type KiCad)(uri C:/Projects/BANO3/Git_BANO3/BANO3/Lib/BANO3_Components)(options "")(descr ""))
+  (lib (name LM62435BPPQRJRRQ1)(type KiCad)(uri C:/Projects/BANO3/Git_BANO3/BANO3/Library/From_Internet/ul_LM62435BPPQRJRRQ1/KiCAD/LM62435BPPQRJRRQ1)(options "")(descr ""))
 )
